@@ -20,6 +20,9 @@ class App extends Component {
             <Route exact path='/' component={Home} />
             <Route exact path='/skills' component={Skills} />
             <Route exact path='/projects' component={Projects} />
+          <div>
+            <p>GOING TO TEST GOOGLE VISION API HERE</p>
+          </div>
         </div>
       </Router>
     );
